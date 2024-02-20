@@ -111,6 +111,13 @@ if __name__ == "__main__":
         elif "open youtube" in query:
             wb.open("youtube.com") 
 
+
+        elif "open instagram" in query:
+            wb.open("instagram.com")
+
+        elif "open github" in query:
+            wb.open("github.com")
+
         elif "open google" in query:
             wb.open("google.com") 
    
@@ -126,6 +133,7 @@ if __name__ == "__main__":
             data = takecommand()
             speak("You said me to remember that" + data)
             print("You said me to remember that " + str(data))
+            speak(" Dont't worry i will remind you")
             remember = open("data.txt", "w")
             remember.write(data)
             remember.close()
@@ -134,6 +142,7 @@ if __name__ == "__main__":
             remember = open("data.txt", "r")
             speak("You told me to remember that" + remember.read())
             print("You told me to remember that " + str(remember))
+            speak("don't worry i have a sharp memory")
 
         elif "screenshot" in query:
             screenshot()
