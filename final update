@@ -47,8 +47,8 @@ def wishme():
     else:
         speak("Good Night Sir, See You Tommorrow")
 
-    speak("Deepti at your service sir, please tell me how may I help you.")
-    print("Deepti at your service sir, please tell me how may I help you.")
+    speak("Daya at your service sir, please tell me how may I help you.")
+    print("Daya at your service sir, please tell me how may I help you.")
 
 
 
@@ -83,8 +83,8 @@ if __name__ == "__main__":
             date()
 
         elif "who are you" in query:
-            speak("I'm Deepti created by Mr. Jayant and I'm a desktop voice assistant.")
-            print("I'm Deepti created by Mr. Jayant and I'm a desktop voice assistant.")
+            speak("I'm Daya created by Mr. Jayant and I'm a desktop voice assistant.")
+            print("I'm Daya created by Mr. Jayant and I'm a desktop voice assistant.")
 
         elif "how are you" in query:
             speak("I'm fine sir, What about you?")
